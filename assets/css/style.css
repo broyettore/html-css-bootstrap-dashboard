@@ -50,19 +50,40 @@ header .ms-search {
 
 /****************** ASIDE ************************/
 
-
 aside {
     width: 65px;
-    background-color: #142a40;
+    background-color: var(--aside-bg-color);
+    padding: 1.5rem 1.2rem;
+    color: var(--primary-color);
 }
 
+aside > div {
+    height: 100%;
+}
 
+aside .ms-aside-top > li,
+aside .ms-aside-bottom {
+    padding: 0.6rem;
+}
+
+aside i {
+    font-size: 1.2rem;
+}
+
+aside span {
+    font-size: 0.9rem;
+}
+
+aside li:hover,
+aside .ms-aside-bottom:hover {
+    cursor: pointer;
+    background-color: var(--aside-hover-color);
+}
 
 /****************** MAIN ************************/
 
 main {
     width: calc(100% - 65px);
-    background-color: green;
 }
 
 
@@ -81,6 +102,15 @@ main {
         width: 140px;
     }
 
+    aside i {
+        font-size: 1.1rem;
+        margin-right: 0.755rem;
+    }
+
+    aside .fa-chart-simple {
+        margin-right: 0.975rem;
+    }
+
     main {
         width: calc(100% - 140px);
     }
@@ -92,6 +122,5 @@ main {
     header > div > form {
         width: calc(98% - 260px);
     }
-
     
 }
