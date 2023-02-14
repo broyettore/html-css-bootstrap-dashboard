@@ -8,30 +8,65 @@
 
 /****************** HEADER ************************/
 
+header > div {
+    height: 60px;
+}
 
+header > div > div {
+    width: 60px;
+}
 
+header > div > form {
+    width: calc(100% - 120px);
+}
 
+header img {
+    width: 3.125rem
+}
 
+header h1 {
+    color: #001632;
+}
 
+header ul li,
+header button {
+    margin: 0 8px;
+}
 
+header i {
+    color: #5b5858;
+}
 
+header .fa-bell {
+    color: #ff8f00;
+}
 
+header button {
+    background-color: transparent;
+    border: 0;
+}
+
+header .ms-search {
+    background-color: #e5e5e5;
+    color: #282c2f;
+}
 
 /****************** ASIDE ************************/
 
 
-
-
-
-
-
-
+aside {
+    width: 65px;
+    background-color: #142a40;
+}
 
 
 
 /****************** MAIN ************************/
 
-
+main {
+    width: calc(100% - 65px);
+    background-color: green;
+}
 
 
 
@@ -48,5 +83,23 @@
 
 
 @media screen and (min-width: 992px) {
+
+    
+    aside {
+        width: 140px;
+    }
+
+    main {
+        width: calc(100% - 140px);
+    }
+
+    header > div > div {
+        width: 130px;
+    }
+    
+    header > div > form {
+        width: calc(98% - 260px);
+    }
+
     
 }

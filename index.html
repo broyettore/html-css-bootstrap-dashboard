@@ -22,8 +22,52 @@
 </head>
 <body>
 
+
     <!-- header  -->
-    <header></header>
+    <header>
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            <div>
+                <a class="navbar-brand d-flex align-items-center">
+                    <img src="assets/img/mobile-logo.png" alt="boolean logo">
+                    <h1 class="fs-5 fw-bold d-none d-lg-block">boolean</h1>
+                </a>
+            </div>
+            <form>
+                <input class="form-control ms-search fs-6" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+            </form>
+            <div class="d-flex align-items-center justify-content-end justify-content-lg-end">
+                <nav class="d-none d-lg-block">
+                    <ul class="d-flex align-items-center justify-content-end">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="dropdown">
+                    <button  type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </div>
+            </div>
+         </div>
+    </header>
     <!-- /header  -->
 
     <!-- Central Part Container  --> 
@@ -44,4 +88,4 @@
     <!-- /Bootstrap js  -->
     
 </body>
-</html>
+</html>    
