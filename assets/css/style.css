@@ -53,7 +53,6 @@ header .ms-search {
 aside {
     width: 65px;
     background-color: var(--aside-bg-color);
-    padding: 1.5rem 1.2rem;
     color: var(--primary-color);
 }
 
@@ -84,6 +83,38 @@ aside .ms-aside-bottom:hover {
 
 main {
     width: calc(100% - 65px);
+}
+
+.main-header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.main-header .ms-left span {
+    background-color: #165bba;
+}
+
+
+.main-header .ms-right {
+    order: 1;
+}
+
+.main-header .ms-left {
+    order: 2;
+    padding: 25px 0;
+}
+
+.main-header .ms-center {
+    order: 3;
+}
+
+.ms-offcanvas-btn {
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    border: 1px solid var(--primary-color);
+    padding: 4px 14px;
+    border-radius: 10px;
 }
 
 
@@ -121,6 +152,16 @@ main {
     
     header > div > form {
         width: calc(98% - 260px);
+    }
+
+    .main-header .ms-right,
+    .main-header .ms-left,
+    .main-header .ms-center {
+        order: 0;
+    }
+
+    .main-header .ms-left {
+        padding: 0;
     }
     
 }
