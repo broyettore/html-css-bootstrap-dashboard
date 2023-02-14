@@ -3,9 +3,6 @@
 /* @import 'variables.css'; */
 
 
-
-
-
 /****************** HEADER ************************/
 
 header > div {
@@ -67,11 +64,6 @@ main {
     width: calc(100% - 65px);
     background-color: green;
 }
-
-
-
-
-
 
 
 /****************** MEDIA QUERIES ************************/
