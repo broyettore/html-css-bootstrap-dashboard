@@ -83,6 +83,7 @@ aside .ms-aside-bottom:hover {
 
 main {
     width: calc(100% - 65px);
+    overflow-y: auto;
 }
 
 .main-header {
@@ -92,6 +93,10 @@ main {
 
 .main-header .ms-left span {
     background-color: #165bba;
+}
+
+.main-header .ms-left span:hover {
+    cursor: pointer;
 }
 
 
