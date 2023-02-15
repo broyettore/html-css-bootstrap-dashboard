@@ -251,7 +251,14 @@ table button {
     } 
 
     table .ms-big-col {
-        width: 40%;
+        width: 35%;
     }
 
+}
+
+@media screen and (min-width: 1400px) {
+
+    table .ms-big-col {
+        width: 60%;
+    }
 }
