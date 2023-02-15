@@ -158,6 +158,24 @@ table button {
     margin-bottom: 4px;
 }
 
+/**** main stats ****/
+
+.stats-link > a {
+    text-decoration: underline;
+    color: #4d95fe;
+}
+
+.stats-list > li {
+    padding: .5rem 0;
+}
+
+.stats-list > li:nth-of-type(1) {
+    border-top: 1px solid #dee2e6;
+}
+
+.stats-list > li:not(.stats-link) {
+    border-bottom: 1px solid #dee2e6;
+}
 
 /****************** MEDIA QUERIES ************************/
 
