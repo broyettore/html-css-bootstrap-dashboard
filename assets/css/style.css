@@ -64,6 +64,7 @@ header .ms-search-i {
 
 aside {
     width: 65px;
+    background: url(../img/sidebar-bg.png);
     background-color: var(--aside-bg-color);
     color: var(--primary-color);
 }
