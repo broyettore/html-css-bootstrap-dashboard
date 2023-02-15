@@ -59,7 +59,6 @@ header .ms-search-i {
     background-color: #e5e5e5;
 }
 
-
 /****************** ASIDE ************************/
 
 aside {
@@ -139,6 +138,11 @@ main {
     border-radius: 10px;
 }
 
+.ms-offcanvas-btn:hover {
+    background-color: var(--primary-color);
+    color: #000;
+}
+
 /*** main table ***/
 
 table .ms-big-col {
@@ -199,12 +203,10 @@ table button {
         margin-bottom: 0;
     }
 
-
 }
 
 @media screen and (min-width: 992px) {
 
-    
     aside {
         width: 140px;
     }
@@ -243,6 +245,5 @@ table button {
     table .ms-big-col {
         width: 40%;
     }
-
 
 }
