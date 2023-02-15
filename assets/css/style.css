@@ -122,7 +122,9 @@ main {
 
 
 @media screen and (min-width: 768px) {
-    
+
+   
+
 }
 
 
@@ -162,6 +164,6 @@ main {
 
     .main-header .ms-left {
         padding: 0;
-    }
+    } 
     
 }
