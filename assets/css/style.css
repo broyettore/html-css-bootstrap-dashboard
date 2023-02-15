@@ -127,7 +127,7 @@ main {
     order: 3;
 }
 
-/*** offcanvas toggle ***/
+/*** offcanvas toggle and content ***/
 
 .ms-offcanvas-btn {
     background-color: transparent;
@@ -141,6 +141,10 @@ main {
 .ms-offcanvas-btn:hover {
     background-color: var(--primary-color);
     color: #000;
+}
+
+.offcanvas.offcanvas-end {
+    width: 100%;
 }
 
 /*** main table ***/
@@ -236,6 +240,10 @@ table button {
     .main-header .ms-left,
     .main-header .ms-center {
         order: 0;
+    }
+
+    .offcanvas.offcanvas-end {
+        width: 50%;
     }
 
     .main-header .ms-left {
