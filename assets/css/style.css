@@ -46,7 +46,19 @@ header button {
 header .ms-search {
     background-color: #e5e5e5;
     color: #282c2f;
+    border: none;
 }
+
+header .ms-search:focus {
+    background-color: #e5e5e5;
+    box-shadow: none;
+}
+
+header .ms-search-i {
+    border: none;
+    background-color: #e5e5e5;
+}
+
 
 /****************** ASIDE ************************/
 
@@ -188,7 +200,6 @@ table button {
 
 
 }
-
 
 @media screen and (min-width: 992px) {
 

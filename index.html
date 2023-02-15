@@ -33,7 +33,10 @@
                 </a>
             </div>
             <form>
-                <input class="form-control ms-search fs-6" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text ms-search-i" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control ms-search fs-6" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
             </form>
             <div class="d-flex align-items-center justify-content-end justify-content-lg-end">
                 <nav class="d-none d-lg-block">
@@ -102,6 +105,7 @@
         <!-- aside  -->
         <!-- main  -->
         <main>
+            <!-- main header  -->
             <section class="main-header p-3">
                 <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
                     <div class="ms-left">
@@ -128,9 +132,12 @@
                     </div>
                 </div>
             </section>
-
-            <section class="ms-table-ctn row p-3">
+            <!-- main /header  -->
+            <!-- table section  -->
+            <section class="row p-3">
+                <!-- table and faq sections -->
                 <div class="col-12 col-lg-8">
+                    <!-- Table  -->
                     <div class="card mb-3">
                         <h5 class="card-header">Prossime classi</h5>
                         <div class="card-body">
@@ -301,6 +308,8 @@
                               </table>
                         </div>
                       </div>
+                      <!-- /Table  -->
+                       <!-- FAQ  -->
                       <div class="card mb-3">
                         <h5 class="card-header">F.A.Q</h5>
                             <div class="card-body">
@@ -344,8 +353,12 @@
                                   </div>
                             </div>
                       </div>
+                      <!-- /FAQ  -->
                 </div>
+                <!-- /table and faq sections -->
+                <!-- Todo and Stats section  -->
                 <div class="col-12 col-lg-4">
+                    <!-- Todo  -->
                     <div class="card mb-3">
                         <h5 class="card-header">Todo</h5>
                             <div class="card-body">
@@ -365,27 +378,32 @@
                                   </div>
                             </div>
                       </div>
+                      <!-- /Todo  -->
+                      <!-- Stats  -->
                       <div class="card mb-3">
-                        <div>
-                            <img src="assets/img/stats.jpeg" alt="stats image" class="img-fluid">
-                          </div>
-                        <div class="card-body">
-                          <div>
-                            <h4 class="fs-5">Utenti attivi</h4>
-                            <h5 class="fs-6 fw-normal mb-2">Lista degli utenti attivi in piattaforma nell'ultimo mese</h5>
-                            <ul  class="stats-list">
-                                <li>Gennaio: 1200</li>
-                                <li>Febbraio: 800</li>
-                                <li>Marzo: 1500</li>
-                                <li class="stats-link"><a href="#">
-                                    Visualizza report approfondito
-                                </a>
-                            </li>
-                            </ul>
-                          </div>
-                        </div>
+                            <div>
+                                <img src="assets/img/stats.jpeg" alt="stats image" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="fs-5">Utenti attivi</h4>
+                                    <h5 class="fs-6 fw-normal mb-2">Lista degli utenti attivi in piattaforma nell'ultimo mese</h5>
+                                    <ul  class="stats-list">
+                                        <li>Gennaio: 1200</li>
+                                        <li>Febbraio: 800</li>
+                                        <li>Marzo: 1500</li>
+                                        <li class="stats-link">
+                                            <a href="#">
+                                            Visualizza report approfondito
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                       </div>
+                      <!-- /Stats  -->
                 </div>
+                <!-- /Todo and Stats section  -->
             </section>
         </main>
         <!-- /main  -->
