@@ -86,6 +86,8 @@ main {
     overflow-y: auto;
 }
 
+/*** main header ***/
+
 .main-header {
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -113,6 +115,8 @@ main {
     order: 3;
 }
 
+/*** offcanvas toggle ***/
+
 .ms-offcanvas-btn {
     background-color: transparent;
     color: var(--primary-color);
@@ -122,13 +126,48 @@ main {
     border-radius: 10px;
 }
 
+/*** main table ***/
+
+table .ms-big-col {
+    width: 50%;
+}
+
+.ms-avatar {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.ms-align > img,
+.ms-align span {
+    vertical-align: middle;
+}
+
+.ms-table-btn {
+    background-color: transparent;
+    color: #5b5858;
+    border: 1px solid #5b5858;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+tbody tr:hover {
+    background-color: lightgray;
+}
+
+table button {
+    margin-bottom: 4px;
+}
+
 
 /****************** MEDIA QUERIES ************************/
 
 
 @media screen and (min-width: 768px) {
 
-   
+    table button {
+        margin-bottom: 0;
+    }
+
 
 }
 
@@ -170,5 +209,10 @@ main {
     .main-header .ms-left {
         padding: 0;
     } 
+
+    table .ms-big-col {
+        width: 40%;
+    }
+
 
 }
